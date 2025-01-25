@@ -59,3 +59,26 @@ h1, p {
 .hero-text-header > h1 {
     font-size: 80px;
 }
+
+.hero-text-para p {
+    font-size: 18px;
+}
+
+.hero-text-search {
+    box-shadow: 0px 0px 5px 1px rgb(175, 175, 175);
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(3, 32.5px);
+    grid-template-columns: repeat(2, 100px) 500px 75px;
+    width: 82.5%;
+}
+
+.hero-text-search > select {
+    border: none;
+    background: none;
+}
+
+.hero-text-search > select,
+.hero-text-search div {
+    grid-row: 2 / 3;
+}
