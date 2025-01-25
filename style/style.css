@@ -34,3 +34,9 @@
 .menu-section svg {
     grid-row: 2 / 3;
 }
+
+.nav-section a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
