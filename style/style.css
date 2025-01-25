@@ -1,3 +1,11 @@
+body {
+    box-sizing: border-box;
+}
+
+h1, p {
+    margin: 0;
+}
+
 .header-section {
     display: grid;
     grid-template-rows: 150px;
@@ -39,4 +47,15 @@
     font-size: 20px;
     text-decoration: none;
     color: black;
+}
+
+.hero-text {
+    display: grid;
+    grid-template-rows: 300px repeat(2, 100px);
+    width: 50%;
+    padding: 25px;
+}
+
+.hero-text-header > h1 {
+    font-size: 80px;
 }
