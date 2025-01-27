@@ -141,3 +141,27 @@ h2{
     border-radius: 5px;
     margin-top: 7.5%;
 }
+
+.plan-trip-text {
+    display: grid;
+    grid-template-rows: repeat(2, 50%);
+    grid-template-columns: 10% 90%;
+    margin-top: 5%;
+}
+
+.plan-header {
+    margin-top: 12.5%;
+}
+
+.plan-header p {
+    font-size: 20px;
+    color: orange;
+}
+
+.plan-header > h2 {
+    font-size: 40px;
+}
+
+.hero-text-header h1 span {
+    text-decoration: underline orange solid;
+}
