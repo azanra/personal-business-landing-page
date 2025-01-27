@@ -125,3 +125,19 @@ h2{
     height: 70%;
     margin-top: 20%;
 }
+
+.plan-section {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 500px;
+    margin-top: 100px;
+}
+
+.plan-video {
+    height: 80%;
+    width: 50%;
+    margin-left: 25%;
+    background-color: grey;
+    border-radius: 5px;
+    margin-top: 7.5%;
+}
