@@ -165,3 +165,21 @@ h2{
 .hero-text-header h1 span {
     text-decoration: underline orange solid;
 }
+
+.product-header > p,
+.product-header h2 span {
+    color: orange;
+}
+
+.product-header p {
+    font-size: 30px;
+}
+
+.product-header h2 {
+    font-size: 50px;
+}
+
+.product-section {
+    display: grid;
+    grid-template-rows: 150px 600px 150px;
+}
