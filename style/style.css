@@ -183,3 +183,26 @@ h2{
     display: grid;
     grid-template-rows: 150px 600px 150px;
 }
+
+.product-main {
+    display: grid;
+    grid-template-columns: 200px repeat(3, 500px) 200px;
+}
+
+.product2-container,
+.product3-container,
+.product4-container {
+    display: grid;
+    grid-template-rows: 300px 250px;
+    grid-template-columns: 350px;
+    border-radius: 5px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product2-logo,
+.product3-logo,
+.product4-logo {
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+}
