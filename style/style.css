@@ -144,7 +144,7 @@ h2{
 
 .plan-trip-text {
     display: grid;
-    grid-template-rows: repeat(2, 50%);
+    grid-template-rows: repeat(3, 50%);
     grid-template-columns: 10% 90%;
     margin-top: 5%;
 }
@@ -177,6 +177,10 @@ h2{
 
 .product-header h2 {
     font-size: 50px;
+}
+
+.product-header {
+    margin-left: 12.5%;
 }
 
 .product-section {
@@ -245,4 +249,16 @@ h2{
 .product4-price {
     margin-left: 25px;
     margin-bottom: 20px;
+}
+
+.product-1,
+.product-5 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.product-footer {
+    display: grid;
+    justify-items: center;
 }
