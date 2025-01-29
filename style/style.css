@@ -204,5 +204,22 @@ h2{
 .product3-logo,
 .product4-logo {
     display: grid;
-    grid-template-columns: repeat(6, 50px);
+    grid-template-columns: 30px 70px 30px 70px 30px 70px;
+    justify-content: center;
+}
+
+.product2-name,
+.product3-name,
+.product4-name {
+    margin-top: 80px;
+}
+
+.product2-name,
+.product2-price,
+.product3-name,
+.product3-price,
+.product4-name,
+.product4-price {
+    margin-left: 25px;
+    margin-bottom: 20px;
 }
