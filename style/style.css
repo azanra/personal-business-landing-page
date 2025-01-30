@@ -323,3 +323,21 @@ h2{
     border-radius: 5px;
     margin-left: 10%;
 }
+
+.testimonial-section {
+    display: grid;
+    grid-template-rows: 100px 600px;
+}
+
+.testi-header p {
+    color: orange;
+    font-size: 20px;
+}
+
+.testi-header > h2 {
+    font-size: 40px;
+}
+
+.testi-header {
+    margin-left: 9%;
+}
