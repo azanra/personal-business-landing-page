@@ -402,3 +402,33 @@ h2{
     width: 40%;
     text-align: center;
 }
+
+.sub-footer {
+    width: 40%;
+    background-color: rgba(255, 182, 73, 0.5);
+    color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    align-items: center;
+}
+
+.sub-footer > p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 8%;
+}
+
+.sub-footer button {
+    background-color: orange;
+    border: none;
+    color: inherit;
+    border-radius: inherit;
+    padding: 15%;
+    font-size: inherit;
+    font-weight: bolder;
+    margin-right: 5%;
+}
+
+
+
