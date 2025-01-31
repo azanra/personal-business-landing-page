@@ -430,5 +430,15 @@ h2{
     margin-right: 5%;
 }
 
+.footer-section {
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    background-color: rgba(255, 160, 63, 1);
+    color: white;
+    margin-top: 10%;
+}
 
-
+.footer-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
