@@ -508,3 +508,9 @@ h2{
     grid-template-rows: repeat(3, 1fr);
     align-items: center;
 }
+
+.footer-copyright {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
