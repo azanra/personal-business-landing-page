@@ -442,3 +442,24 @@ h2{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
+.footer-travel,
+.footer-services,
+.footer-instagram,
+.footer-contact {
+    padding: 25% 20% 20%;
+}
+
+.footer-travel-header {
+    margin-bottom: 10%;
+}
+
+.footer-travel-main {
+    text-align: justify;
+    margin-bottom: 20%;
+}
+
+.footer-travel-link {
+    display: grid;
+    grid-template-columns: repeat(3, 0.25fr);
+}
